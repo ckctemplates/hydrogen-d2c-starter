@@ -14,7 +14,7 @@ export default defineConfig({
   // was silently overwritten by Hydrogen's scaffolded block.)
   build: {
     // Allow a strict Content-Security-Policy
-    // without inlining assets as base64:
+    // withouts inlining assets as base64:
     assetsInlineLimit: 0,
   },
   ssr: {
