@@ -38,7 +38,7 @@ export default defineConfig({
   },
   server: {
     // MiniOxygen dev is fronted by nginx on hydrogen-demo-store.glitchexecutor.com
-    // for team preview. Vite blocks unknown Host headers by default;
+    // for teams preview. Vite blocks unknown Host headers by default;
     // allowlist all glitchexecutor.com subdomains plus Shopify's tryhydrogen.dev.
     allowedHosts: [
       '.glitchexecutor.com',
