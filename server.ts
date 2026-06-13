@@ -53,7 +53,7 @@ export default {
       return response;
     } catch (error) {
       console.error(error);
-      return new Response('An unexpected error occurred', {status: 500});
+      return new Response('An unexpected error has occurred', {status: 500});
     }
   },
 };
